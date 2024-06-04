@@ -11,12 +11,12 @@ from PIL import Image
 load_dotenv(find_dotenv())
 
 # Import config vars
-with open(r'D:\vs files\RAG-LLAMA2-Streamlit-FAISS-master\config\config.yml', 'r', encoding='utf8') as ymlfile:
+with open(r'\config\config.yml', 'r', encoding='utf8') as ymlfile:
     cfg = box.Box(yaml.safe_load(ymlfile))
 
 def main():
     st.title("DocQnA ChatBot")
-    image = Image.open(r'D:\vs files\RAG-LLAMA2-Streamlit-FAISS-master\assets\diagram_flow.png')
+    image = Image.open(r'\assets\diagram_flow.png')
     st.image(image, '')
     st.write("Enter your message below and press Enter to get the response from the chatbot.")
 
