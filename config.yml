@@ -10,4 +10,4 @@ MODEL_TYPE: 'llama'
 MODEL_BIN_PATH: 'D:\vs files\RAG-LLAMA2-Streamlit-FAISS-master\models\llama-2-7b-chat.ggmlv3.q2_K.bin'
 MAX_NEW_TOKENS: 256
 TEMPERATURE: 0.01
-ACS: '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'
+ACS: 'acesss_your hugging face token'
