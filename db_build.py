@@ -10,7 +10,7 @@ from langchain.embeddings import HuggingFaceEmbeddings
 
 
 # Import config vars
-with open(r'D:\vs files\RAG-LLAMA2-Streamlit-FAISS-master\config\config.yml', 'r', encoding='utf8') as ymlfile:
+with open(r'\config\config.yml', 'r', encoding='utf8') as ymlfile:
     cfg = box.Box(yaml.safe_load(ymlfile))
 
 
